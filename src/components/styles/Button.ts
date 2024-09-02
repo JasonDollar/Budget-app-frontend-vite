@@ -13,7 +13,7 @@ export const Button = styled.button`
       to top,
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05)
-    ) ${props => props.theme.mainThemeColor} ;
+    ) ${props => props.theme.mainThemeColor};
     /* filter: brightness(95%); */
 
   }
@@ -22,8 +22,7 @@ export const Button = styled.button`
       to top,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.25)
-    ) ${props => props.theme.mainThemeColor} ;
-    /* filter: brightness(95%); */
+    ) ${props => props.theme.mainThemeColor};
 
   }
 `

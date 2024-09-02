@@ -8,5 +8,15 @@ export interface IExpense {
   updatedAt: Date | string,
   expenseDate: Date | string,
   category: string,
+  expenseDateGroup?: string
   __v?: number
+}
+
+export interface IExpenseGroup {
+  _id?: string,
+  expenseDateGroupDate: string,
+  expenseDateGroupId: string,
+  count: number,
+  sumAmount: number,
+  expenses: IExpense[]
 }
